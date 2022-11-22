@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1024px;
+  padding-top: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+}
+
+.player-health {
+  width: 100%;
+  background-color: red;
+  height: 50%;
+}
+
+.enemy-health {
+  width: 100%;
+  background-color: blue;
+  height: 50%;
+}
+
+.time {
+  width: 250px;
+  height: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.concon {
+  justify-content: flex-end;
+}
+
+.end {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  color: white;
+  font-size: 2em;
+  display: none;
+}
